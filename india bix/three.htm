@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--3 . Look at this series: 36, 34, 30, 28, 24, ... What number should come next?-->
+
+    <script>
+        //36, 34, 30, 28, 24, ...
+
+        let first = 36 ;
+        let second = 34 ; 
+        let a = parseInt(prompt('Enter N :'));
+
+        let i = 1;
+
+        while(i<=a)
+        {
+            document.write(first + " ")
+            document.write(second+" ");
+            first -= 6;
+            second -= 6;
+            i++;
+        }
+
+
+
+    </script>
+    
+</body>
+</html>
