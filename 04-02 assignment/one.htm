@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--WAP TO PRINT 1 TO N  USING FOR , WHILE AND DO WHILE LOOP -->
+
+    <script>
+
+        let i=1;
+        let a = parseInt(prompt("Enter N : "));
+
+
+        {
+            document.write('By Using For loop -> <br>')
+        }
+
+        for( let i = 1;  i<=a; i++)
+        { 
+            document.write(i) ;
+            document.write("<br>")
+        }
+        {
+            document.write('<br>')
+        }
+        
+
+        
+            document.write('By Using While loop -> <br>')
+        
+     
+
+        while(i<=a)
+        {
+            document.write(i) ;
+            i++;
+            document.write("<br>")
+        }
+
+        {
+            document.write('<br>')
+        }
+        
+        
+            document.write('By Using Do...While loop -> <br>')
+        
+
+        {
+            
+             let i =1 ;
+
+             do{
+
+                      document.write(i);
+                      document.write('<br>')
+                        i++;
+
+             }while(i<=a);
+
+        }
+    </script>
+
+
+    
+</body>
+</html>

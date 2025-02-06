@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--      // wap to print fibbonachie series. : 0 1 1 2 3 5 8 13....  -->
+
+    <script>
+
+        let i = 0;
+        let first = 0;
+        let secont = 1 ;
+        let a = parseInt(prompt('Enter N : '));
+
+
+        
+            document.write(0 + " ");
+
+        
+        while(i<=a)
+        {
+            let third = first + secont ; // 0 + 1 = 1 
+
+            document.write( third + " ");
+
+            first = secont ; // 0 = 1 
+            secont = third; // 1 = 1  
+        
+            i++;
+        }
+        
+
+
+    </script>
+
+    
+</body>
+</html>
