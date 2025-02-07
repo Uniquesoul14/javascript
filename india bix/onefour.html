@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Look at this series: 201, 202, 204, 207, ... What number should come next? -->
+    <script>
+        
+        let start = 201 ;
+        
+        let diff= 1;
+
+        let  a = parseInt(prompt("Enter N :"))
+
+        document.write("thr number series :")
+
+        for (let i = 1; i <= a; i++)
+         {
+            
+            document.write(start + " ");
+
+            start += diff; // Increase by current difference
+            diff++;        // Increase the difference by 1
+        }
+
+
+    </script>
+</body>
+</html>

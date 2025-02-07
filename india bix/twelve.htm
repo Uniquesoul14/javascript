@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--12.Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?-->
+    <script>
+
+        let i = 1 ;
+        let first = 14;
+
+        let  n = parseInt(prompt("Enter N : " ));
+      
+
+        
+            document.write(first + " ")
+        
+            
+        while(i<=n)
+        {
+            
+            if(i%2==1)
+            {
+                document.write(first *=2 , " ")
+            }
+            else{
+                document.write(first-=8 , " ");
+            }
+            i++;
+
+
+        }
+
+    </script>
+
+</body>
+</html>
